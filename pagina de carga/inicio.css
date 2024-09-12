@@ -1,0 +1,61 @@
+.imag1{
+  float: left;
+  width: 20;
+}
+body {
+  background-image: url(fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+header, footer {
+  background-color: #646464;
+  color: rgb(168, 167, 167);
+  text-align: center;
+  padding: 40px 0;
+  }
+ 
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a50202;
+  }
+  nav ul li {
+  float: left ;
+  }
+  nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  nav ul li a:hover {
+  background-color: #771c1c;
+  }
+  .login-container {
+    background-color: #646464;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #a50202(211, 6, 6, 0.1);
+    width: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+.contenedor {
+  text-align: center;
+}
+.imagen-centrada {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen si es necesario */
+  height: auto;    /* Mantiene la proporción de la imagen */
+} 
+a{
+margin: auto;
+cursor: pointer;
+}
