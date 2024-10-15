@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seleccion de alumno</title>
+    <link rel="stylesheet" href="seleccionar.css">
+</head>
+<body>
+    <header>
+        <img alt="imgagen de perfil" src=logo.png width="40">
+        <h1>BOLETIN</h1>
+    </header>
+    <div class="login-container">
+        <h1>selecciona un alumno</h1>
+        <form action="carga.html" method="post">
+            <label for="nombre">nombre de estudiante</label>
+            <input type="text" id="nombre"  placeholder="Introduce el nombre y apellido del alumno" required>
+            
+            <label for="curso">curso</label>
+            <input type="text" id="curso"  placeholder="Introduce el curso del alumno" required>
+
+            <label for="año">año</label>
+            <input type="text" id="año"  placeholder="Introduce el año " required>
+
+            <label for="DNI">DNI</label>
+            <input type="text" id="dni"  placeholder="Introduce el DNI del alumno" required>
+            
+            <button type="submit">crear</button>
+        </form>
+    </div>
+    
+</body>
+</html>
